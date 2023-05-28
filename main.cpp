@@ -46,10 +46,9 @@ int main() {
     std::cout << "else";
 #endif
     //нельзя определелять дерективы препроцессора(штука со #) для проверки кода не в какой-то функции
+    std::cout << std::endl;
     foo(1, "Name");
-    A(1);
-
-
+    A(2);
 
     RUN_TEST(test_test);
     return 0;

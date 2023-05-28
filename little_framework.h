@@ -25,6 +25,7 @@ void assert_equal(T expr, T& expr_true,
     static int currentTest = 0;
     //что-то, что лучше взять с ГитХаб
     std::cout << "\ttest" << numTest;
+
 #ifdef TEST_FULL_INFO
     std::cout << exprString << " == " << , exprTrueString << " ";
 #endif
